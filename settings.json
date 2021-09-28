@@ -1,0 +1,78 @@
+{
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+
+        {
+            "before": [
+                " ",
+                "p"
+            ],
+            "after": [
+                "y",
+                "y",
+                "p"
+            ]
+        },
+
+        {
+            "before": [
+                " ",
+                "w"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "leader",
+                "b",
+                "d",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                " ",
+                "d"
+            ],
+            "after": [
+                "#9"
+            ]
+        },
+        {
+            "before": [
+                " ",
+                "d"
+            ],
+            "after": [
+                "#9"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<S-K>"
+            ],
+            "after": [
+                "K"
+            ]
+        }
+    ],
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true
+}

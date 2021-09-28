@@ -1,0 +1,10 @@
+imap jj <Esc>
+set easymotion
+set commentary
+set multiple-cursors
+
+let mapleader = " "
+map  <Leader>w <Plug>(easymotion-bd-w)
+
+:map <Leader>d <Action>(ToggleLineBreakpoint)
+
