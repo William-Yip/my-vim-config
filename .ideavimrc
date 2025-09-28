@@ -8,3 +8,6 @@ map  <Leader>w <Plug>(easymotion-bd-w)
 
 :map <Leader>d <Action>(ToggleLineBreakpoint)
 
+nmap <S-l> <Action>(NextTab)
+nmap <S-h> <Action>(PreviousTab)
+nmap <S-w> <Action>(CloseEditor)
